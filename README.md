@@ -1,6 +1,6 @@
-# Project Title
+# Bleepus Website
 
-Welcome to [Project Name], my first project as part of my mentorship journey.
+Welcome to Bleepus Website, my first project as part of my mentorship journey.
 
 ## Overview
 
