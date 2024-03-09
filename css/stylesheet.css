@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+body{
+    background: #e6fff2;
+}
+header{
+    height: 100vh;
+    overflow: hidden, !important
+}
+header .hero-container{
+    width: 100%;
+}
+/* navbar links */
+.hero-container .navBar{
+    padding: 13px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar .logo img{
+    width: 150px;
+    cursor: pointer;
+}
+.navBar nav ul{
+    display: flex;
+}
+.navBar nav li{
+    padding: 0 25px;
+}
+.navBar nav li a{
+    color: #666;
+    transition: color .3s ease;
+}
+.navBar nav li a:hover{
+    color: #00cc00;
+}
+/* menu bar */
+.navBar .menu .fa-bars{
+    font-size: 30px;
+}
+
+/* hero section */
+.hero-box {
+    margin-top: 8%;
+}
+.hero-box .hero-img img{
+    width: 560px;
+}
+.hero-box .hero-text{
+    position: absolute;
+    top: 34%;
+    left: 33%;
+}
+.hero-text .hero-heading{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 3%;
+}
+.hero-text .desc{
+    text-align: center;
+    width: 80%;
+    padding: 0 40px;
+    color: #222;
+}
+.hero-text 
