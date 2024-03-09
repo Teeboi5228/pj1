@@ -63,10 +63,18 @@ header .hero-container{
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 3%;
+}
+.hero-heading .line-1{
     background-image: url(/assets/h1_line01.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 92%;
+    background-size: 100%;
+}
+.hero-heading .line-2{
+    background-image: url(/assets/h1_line02.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 78%;
 }
 .hero-text .desc{
     text-align: center;
