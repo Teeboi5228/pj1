@@ -65,13 +65,13 @@ header .hero-container{
     margin-bottom: 3%;
 }
 .hero-heading .line-1{
-    background-image: url(/assets/h1_line01.png);
+    background-image: url(../assets/h1_line01.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 100%;
 }
 .hero-heading .line-2{
-    background-image: url(/assets/h1_line02.png);
+    background-image: url(../assets/h1_line02.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 78%;
@@ -99,7 +99,7 @@ header .hero-bottom{
     margin: -30px auto;
     width: 80%;
     max-width: 100%;
-    background-image: url(/assets/hero_bottom_bg.png);
+    background-image: url(../assets/hero_bottom_bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
