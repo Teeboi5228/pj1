@@ -12,14 +12,29 @@ header{
 }
 header .hero-container{
     width: 100%;
-    background: #ccffdc;
+    background: #dbfdfe;
 }
 .hero-container{
     overflow: hidden, !important
 }
 /* navbar links */
+.hero-container .navBar-linkss{
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    top: 0px; 
+    transition: all 0.3s ease-in-out !important;
+    z-index: 100 !important ;
+}
+.hero-container .navBar-linkss.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 99 !important;
+    background: #dbfdfe;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
 .hero-container .navBar{
-    padding: 13px 5%;
+    padding: 0 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +71,7 @@ header .hero-container{
 }
 .hero-box .hero-text{
     position: absolute;
-    top: 34%;
+    top: 210px;
     left: 33%;
 }
 .hero-text .hero-heading{
@@ -65,13 +80,13 @@ header .hero-container{
     margin-bottom: 3%;
 }
 .hero-heading .line-1{
-    background-image: url(/assets/h1_line01.png);
+    background-image: url(../assets/h1_line01.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 100%;
 }
 .hero-heading .line-2{
-    background-image: url(/assets/h1_line02.png);
+    background-image: url(../assets/h1_line02.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 78%;
@@ -99,7 +114,7 @@ header .hero-bottom{
     margin: -30px auto;
     width: 80%;
     max-width: 100%;
-    background-image: url(/assets/hero_bottom_bg.png);
+    background-image: url(../assets/hero_bottom_bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
